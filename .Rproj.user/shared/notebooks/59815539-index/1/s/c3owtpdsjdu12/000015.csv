@@ -1,0 +1,30 @@
+"0","grouped_publications <- publications %>%
+  group_by(year) %>%
+  summarise(formatted_entries = paste(
+    mapply(
+      format_publications,
+      author,
+      year,
+      title,
+      journal,
+      volume,
+      number,
+      pages,
+      doi,
+      SIMPLIFY = FALSE
+    ),
+    collapse = ""\n""
+  )) %>% 
+  arrange(desc(year))
+"
+"1","[1m[33mError[39m in `summarise()`:[22m
+[38;5;232m[36mℹ[38;5;232m In argument: `formatted_entries = paste(...)`.
+[36mℹ[38;5;232m In group 1: `year = 2014`.[39m
+[1mCaused by error:[22m
+[33m![39m Argument ""doi"" fehlt (ohne Standardwert)
+Backtrace:
+[90m  1. [39m... %>% arrange(desc(year))
+[90m 13. [39m[1mbase[22m::mapply(...)
+[90m 14. [39m[1mglobal[22m `<fn>`(...)
+[90m 15. [39m[1mbase[22m::paste0(...)
+"
