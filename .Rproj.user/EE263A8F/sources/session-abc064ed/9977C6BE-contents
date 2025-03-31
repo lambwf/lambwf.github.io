@@ -251,7 +251,8 @@ for (i in 1:length(content$title)) {
 cat("<div class='text-container'>")
 cat("<h1>Selected publications</h1>")
 
-publications <- ReadBib('publications.bib')
+#publications <- ReadBib('publications.bib')
+publications <- ReadBib('My library.bib')
 publications <- as.data.frame(publications) %>%
   mutate(year = as.numeric(year)) %>%
   arrange(desc(year))
