@@ -1,9 +1,0 @@
-"0","#publications <- ReadBib('publications.bib')
-publications <- ReadBib('My library.bib')
-"
-"2","Ignoring entry 'smith_state_2023'  (line2) because:
-	A bibentry of bibtype ‘TechReport’ has to specify the field: institution
-"
-"2","Ignoring entry 'smith_state_2024'  (line462) because:
-	A bibentry of bibtype ‘TechReport’ has to specify the field: institution
-"
