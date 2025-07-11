@@ -272,16 +272,25 @@ for (i in 1:length(unique_years)) {
     
     formatted_date <- format(year_group$date[j], "%d/%m")
     
+    cat(paste0("<p>", year_group$text[j]," (", formatted_date, ")"))
+    
+    
     if (!is.na(year_group$link[j])==TRUE) {
+        
+        cat(paste0(" [<a href='",year_group$link[j],"' target='_blank' style='text-decoration: none;'>link</a>]"))
+    }  
+    
+    if (!is.na(year_group$photo[j])==TRUE) {
       
-      cat(paste0("<p>", year_group$text[j]," (", formatted_date, ")",
-                 " [<a href='",year_group$link[j],"' target='_blank' style='text-decoration: none;'>link</a>]",
-                 "</p>\n"))
-    }  else {
-      
-      cat(paste0("<p>", year_group$text[j]," (", formatted_date, ")", "</p>\n"))
-      
+      link = paste0("https://raw.githubusercontent.com/lambwf/lambwf.github.io/refs/heads/master/plots/",year_group$photo[j])
+        
+        cat(paste0(" [<a href='",link,"' target='_blank' style='text-decoration: none;'>photo!</a>]"))
     }
+    
+    
+    cat(paste0("</p>\n"))
+    
+    
   }
 }
 
