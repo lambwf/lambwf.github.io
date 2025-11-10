@@ -350,6 +350,7 @@ format_publications <- function(author, editor, year, title, journal, volume, nu
 
 grouped_publications <- publications %>%
   group_by(year) %>%
+  arrange(desc(urldate)) %>% 
   summarise(formatted_entries = paste(
     mapply(
       format_publications,
