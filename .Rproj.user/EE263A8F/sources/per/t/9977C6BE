@@ -3,7 +3,7 @@
     "path": "C:/Users/lamw/Nextcloud/Projects/lambwf.github.io/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "872192599",
     "contents": "",
     "dirty": false,
     "created": 1737268461653.0,
@@ -13,16 +13,16 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "365,14",
-        "scrollLine": "361",
-        "last_setup_crc32": "8c1d569a92ac82c6"
+        "cursorPosition": "338,27",
+        "scrollLine": "0",
+        "last_setup_crc32": ""
     },
     "folds": "",
     "lastKnownWriteTime": 1762769849,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1762769849932,
+    "last_content_update": 1762866097864,
     "read_only": false,
     "read_only_alternatives": []
 }
