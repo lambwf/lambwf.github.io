@@ -1,5 +1,6 @@
-"0",""
-"0","cat(""<div class='text-container'>"")"
+"0","
+cat(""<div class='text-container'>"")
+"
 "1","<div class='text-container'>"
 "0","cat(""<h1>Selected outreach</h1>"")"
 "1","<h1>Selected outreach</h1>"
@@ -45,7 +46,17 @@
 "0","}"
 "1","<p><strong>2025</strong></p>
 "
-"1","<p>Interviewed by Bloomberg for a piece on China's NDC and countries that have peaked in emissions (24/09)"
+"1","<p>Presented the UNEP Emissions Gap Report at a UNFCCC brown bag lunch (09/12)"
+"1","</p>
+"
+"1","<p>Attended the IPCC AR7 first Lead Author Meeting in Paris (01/12)"
+"1"," [<a href='https://bsky.app/profile/pik-potsdam.bsky.social/post/3m7id4vobzk2j' target='_blank' style='text-decoration: none;'>link</a>]"
+"1","</p>
+"
+"1","<p>Contributed to a COP30 side-event panel on carbon dioxide removal and the IPCC task force on inventories (14/11)"
+"1","</p>
+"
+"1","<p>Interviewed by Bloomberg for an article on China's NDC and countries that have peaked in emissions (24/09)"
 "1"," [<a href='https://www.bloomberg.com/news/articles/2025-09-24/china-played-it-safe-with-first-pledge-to-cut-greenhouse-emissions?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc1ODgwNzAyMSwiZXhwIjoxNzU5NDExODIxLCJhcnRpY2xlSWQiOiJUMzNaWU1HUEZJM1MwMCIsImJjb25uZWN0SWQiOiI5OEM1Q0NDQzlGRDI0M0UyOTI4NjIxODI2MjdFRDIzMiJ9.fpWU4Z9IVsox3ioUzNOZTLyNIDz6Elm1Zlp8KBcdrJs' target='_blank' style='text-decoration: none;'>link</a>]"
 "1","</p>
 "
@@ -54,6 +65,9 @@
 "
 "1","<p>Nominated as Lead Author of the IPCC 7th Assessment Report (19/08)"
 "1"," [<a href='https://www.ipcc.ch/2025/08/18/pr-ar7-authors/' target='_blank' style='text-decoration: none;'>link</a>]"
+"1","</p>
+"
+"1","<p>Invited presentation at the Environmental Defence Fund Science Days (24/06)"
 "1","</p>
 "
 "1","<p>Participated in a press conference at the UNFCCC June Climate Meetings in Bonn for the ""Indicators of Global Climate Change 2024"" publication (19/06)"
@@ -84,7 +98,7 @@
 "1","<p>Invited to present Discourses of Climate Delay at a GIZ event on Behavioural Change (27/03)"
 "1","</p>
 "
-"1","<p>Inited to present on the IPCC 7th Assessment Report outline by the German-IPCC coordination group (20/03)"
+"1","<p>Invited to present on the IPCC 7th Assessment Report outline by the German-IPCC coordination group (20/03)"
 "1","</p>
 "
 "1","<p>Invited as Lead Author of the UNEP Emissions Gap Report 2025 (05/02)"
@@ -114,7 +128,3 @@
 "1","<p>Invited to a roundtable on climate misinformation with the Chief Scientific Advisor to the UK Government (21/06)"
 "1","</p>
 "
-"0","cat(paste0(""<p>Poor records and bad memory before this... :)</p>""))"
-"1","<p>Poor records and bad memory before this... :)</p>"
-"0","cat(""</div>"")"
-"1","</div>"
