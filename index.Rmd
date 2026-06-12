@@ -199,6 +199,8 @@ I am a senior researcher at the Potsdam Institute for Climate Impact Research. M
 <p>
 Here you can find links to some of my work, as well as additional figures, data and analysis. All of my analysis and code is open source and can be found on Github. 
 </p>
+
+<br>
 <br>
 <div style="display: flex; gap: 20px; align-items: center;">
   <a href="https://www.pik-potsdam.de/members/lamb/homepage" target="_blank" style="text-decoration: none;">
